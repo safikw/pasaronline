@@ -4,33 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="ffffff"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
-
-
+    //test push gitt
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:elevation="20dp"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/btnbottom"
-        android:backgroundTint="@color/purple">
+        android:backgroundTint="@color/purple"
+        android:elevation="20dp"
+        android:orientation="horizontal">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
     </LinearLayout>
 
