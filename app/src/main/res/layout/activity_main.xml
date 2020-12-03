@@ -34,7 +34,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
+
+
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/tvnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvnew"
+        android:text="Log out"/>
 
 </RelativeLayout>
